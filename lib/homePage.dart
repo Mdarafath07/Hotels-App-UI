@@ -154,8 +154,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 30,
-              width: 100,
+
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xff91B9E4),
@@ -287,6 +286,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       drawer: Drawer(
+        backgroundColor: Colors.white,
         child: ListView(
           children: [
             DrawerHeader(
